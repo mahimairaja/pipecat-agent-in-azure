@@ -1,0 +1,14 @@
+[project]
+name = "app"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.116.1",
+    "loguru>=0.7.3",
+    "numba>=0.61.2",
+    "pipecat-ai[azure,deepgram,elevenlabs,openai,silero]>=0.0.76",
+    "python-dotenv>=1.1.1",
+    "uvicorn>=0.35.0",
+]
