@@ -16,7 +16,7 @@ Pipecat AI Agent in Azure
 **pipecat-agent-in-azure** is a blazing-fast, production-grade voice assistant powered by [Pipecat AI](https://github.com/pipecat-ai/pipecat), deployed seamlessly to Azure using Container Apps and managed with Terraform. This project is your one-stop solution for building, deploying, and scaling conversational AI on the cloud, with modern DevOps best practices—and it connects to the real phone network using Twilio and ngrok!
 
 
-## ✨ Features
+## Features
 
 - **Conversational Voice Agent**: Real-time, low-latency voice interaction using FastAPI and Pipecat AI.
 - **Azure-Native Deployment**: Effortless deployment to Azure Container Apps, leveraging Azure's scalability and reliability.
@@ -44,7 +44,7 @@ graph TD;
 
 
 
-## ☎️ Telephony Integration
+## Telephony Integration
 
 - **Twilio**: Buy a phone number and configure its webhook to point to your ngrok URL (e.g., `wss://<ngrok-id>.ngrok-free.app/ws`).
 - **ngrok**: Securely exposes your FastAPI WebSocket endpoint to the public internet for Twilio to reach your app, even if running locally or behind a firewall.
