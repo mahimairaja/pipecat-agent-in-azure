@@ -1,5 +1,5 @@
 <h1 align="center">
-Pipecat AI Agent in Azure
+Pipecat Voice Agent in Azure
 </h1>
 
 [![Azure](https://img.shields.io/badge/Azure-Container%20App-blue?logo=microsoft-azure)](https://azure.microsoft.com/en-us/products/container-apps)
